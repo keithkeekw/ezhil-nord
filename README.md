@@ -3,9 +3,9 @@
 Clean and minimal personal blog and portfolio theme for Hugo. Forked from Ezhil while the structure remains the same but light and dark mode color scheme has change based on Nord Theme.
 
 ## Demo
+![Screenshot](images/light.png "Light Theme")  
 
-
-
+![Screenshot](images/dark.png "Dark Theme")  
 
 ## Features
 
@@ -27,8 +27,7 @@ From your Hugo site run the following.
 
 ```sh
 cd themes
-git clone https://github.com/vividvilla/ezhil.git
-```
+git clone https://github.com/keithkeekw/ezhil-nord```
 
 For more information read the [official setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
@@ -38,7 +37,7 @@ For more information read the [official setup guide](https://gohugo.io/overview/
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My personal blog"
-theme = "ezhil"
+theme = "ezhil-nord"
 
 copyright = "© Copyright notice"
 
@@ -116,7 +115,7 @@ weight = 4
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/vividvilla/ezhil"
+url = "https://github.com/keithkeekw/ezhil-nord"
 
 [[params.social]]
 name = "Twitter"
@@ -161,4 +160,3 @@ You can also disable Disqus for certain content types by using site param `disab
 ## Credits
 
 * [Feather Icons](https://feathericons.com/)
-* [Zen habits](https://zenhabits.net/) for demo content
